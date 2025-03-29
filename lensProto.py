@@ -2,7 +2,7 @@ from enum import IntEnum, unique
 import sys
 import os
 import io # Needed for skipping fields
-
+# fork of https://github.com/onlpx/pyproto/tree/main
 class ProtoError(Exception):
     def __init__(self, msg):
         self.msg = msg
